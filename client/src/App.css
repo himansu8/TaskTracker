@@ -1,0 +1,337 @@
+input[type=text],
+input[type=password],
+[type=email],
+[type=datetime-local],
+[type=delete],
+[type=edit],
+[type=datetime] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  align-content: center;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th {
+  border: 1px solid #dddddd;
+  background-color: #04AA6D;
+  text-align: center;
+  padding: 10px;
+}
+
+.home_div {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_7744540_3d-illustration-of-text-task-and-checkmark-completed-task-concept.html&psig=AOvVaw0xZvum9EisXkdtdWaErn_8&ust=1705516085999000&source=images&cd=vfe&ved=0CBMQjRxqFwoTCKDQxtnE4oMDFQAAAAAdAAAAABAE");
+  text-align: center;
+  background-color: #B8FEC5;
+  height: 700px;
+  padding: 20px;
+}
+
+.image {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.top_bar {
+  color: rgb(75, 47, 255);
+  font-family: arial, sans-serif;
+  font-size: larger;
+}
+
+.link_1 {
+  margin-top: 100px;
+  font-family: arial, sans-serif;
+  font-size: 25px;
+}
+
+.signup-main {
+  display: flex;
+  background-color: #B8FEC5;
+
+}
+
+.signup_img {
+  /* width: 100%; */
+  /* border: 1px solid green; */
+  width: 50px;
+  height: 50px;
+  margin-top: 250px;
+  margin-left: 20px;
+}
+
+.signup {
+  width: 50%;
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+
+.dashboard_img {
+  width: 10px;
+  height: 5px;
+  padding: 50px;
+  margin-left: 10px;
+}
+
+.addtask {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.dashboard_data {
+  margin-top: 10px;
+
+}
+
+.dashboard_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
+p,
+li {
+  color: red;
+  font-size: 13px;
+
+}
+
+.login_img {
+  /* width: 100%; */
+  /* border: 1px solid green; */
+  /* width: 50px;
+  height: 50px; */
+  margin-top: 75px;
+  margin-left: 35px;
+
+}
+
+.login {
+  width: 50%;
+  /* border: 1px solid red; */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.login_main {
+
+  display: flex;
+  padding: 10px;
+  /* background-color:#B8FEC5; */
+
+}
+
+.jinu {
+  height: 710px;
+  background-color: #B8FEC5;
+  margin-top: 0px;
+}
+
+.jinu1 {
+  /* margin-top: 30px;
+  color: blue;
+  font-size: 50px;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: rgb(182, 236, 227);
+  border-radius: 50%; */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.p1 {
+  color: green;
+  text-align: center;
+  font-size: 20px;
+}
+
+.p2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 400px;
+  margin-left: 120px;
+}
+
+.p3 {
+  color: green;
+  font-size: 18px;
+}
+
+.edit_page {
+  background-color: #B8FEC5;
+  ;
+  height: 710px;
+  padding: 20px;
+}
+
+.addtask_page {
+  background-color: #B8FEC5;
+  ;
+  height: 710px;
+  padding: 30px;
+}
+
+.home-container {
+  padding: 20px;
+  background-color: rgb(182, 236, 227);
+
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.link-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link-section a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.link-section a:hover {
+  color: #007bff;
+}
+
+.logo-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  /* padding: 10px; */
+  background-color: rgb(85, 230, 400);
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  position: relative;
+}
+
+.delete-button {
+  background-color: #bb5c66;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.edit-button {
+  background-color: #47a287;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.edit-button:hover {
+  background-color: #1bea0c;
+}
+
+.view-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.view-link:hover {
+  color: #3cf00a;
+}
+
+.dashboard_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.h2>ul>li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+ 
+}
+
+.h2>ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.h1 {
+  /* padding: 20px; */
+  font-size: 24px;
+}
+.h3{
+    text-decoration: none;
+    color: white;
+    
+}
+.h3:hover{
+  color: #3cf00a;
+}
+.h1{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.dashboard{
+  background-color: rgb(182, 236, 227);
+  height: 705px;
+} 
